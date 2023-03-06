@@ -1,0 +1,2 @@
+export const INTERNAL_EXCEPTIONS_MAPPINGS = {};
+export const API_EXCEPTIONS_MAPPINGS = {};

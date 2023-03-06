@@ -1,0 +1,27 @@
+import * as apiIntegrationRequestSagaAction from '../apiIntegrationRequest/sagaActions';
+import * as loginPageSagaActions from '../auth/login/sagaActions';
+import * as passwordResetPageSagaAction from '../auth/passwordReset/sagaActions';
+import * as registrationPageSagaAction from '../auth/registration/sagaActions';
+import * as blogSagaAction from '../blog/sagaActions';
+import * as blogPostPageSagaAction from '../blogPost/sagaActions';
+import * as contactUsPageSagaAction from '../contactUs/sagaActions';
+import * as profileSagaAction from '../profile/sagaActions';
+import * as projectModifySagaAction from '../projectModify/sagaActions';
+import * as projectsSagaAction from '../projects/sagaActions';
+import * as tariffsPageSagaAction from '../tariffs/sagaActions';
+import * as workspaceModifySagaAction from '../workspaceModify/sagaActions';
+import * as workspacesSagaAction from '../workspaces/sagaActions';
+
+export const APIIntegrationRequestSagaActions = apiIntegrationRequestSagaAction;
+export const LoginSagaActions = loginPageSagaActions;
+export const PasswordResetSagaActions = passwordResetPageSagaAction;
+export const RegistrationSagaActions = registrationPageSagaAction;
+export const BlogSagaActions = blogSagaAction;
+export const ContactUsSagaActions = contactUsPageSagaAction;
+export const ProfileSagaActions = profileSagaAction;
+export const WorkspaceModifySagaActions = workspaceModifySagaAction;
+export const BlogPostSagaActions = blogPostPageSagaAction;
+export const ProjectModifySagaActions = projectModifySagaAction;
+export const ProjectsSagaActions = projectsSagaAction;
+export const TariffsSagaActions = tariffsPageSagaAction;
+export const WorkspacesSagaActions = workspacesSagaAction;
